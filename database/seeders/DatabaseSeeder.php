@@ -27,6 +27,14 @@ class DatabaseSeeder extends Seeder
             'department' => 'ADMINISTRATIVE UNIT',
             'work_type' => 'Full',
         ]);
+        $employee = Employee::create([
+            'first_name' => 'Xedric',
+            'middle_name' => 'Baingan',
+            'last_name' => 'Alejo',
+            'position' => 'Administrative Officer 5',
+            'department' => 'ICT',
+            'work_type' => 'Full',
+        ]);
 
         User::create([
             'name' => 'Admin',
