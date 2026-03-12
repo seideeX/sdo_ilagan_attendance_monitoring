@@ -15,9 +15,12 @@
 
         <!-- Scripts -->
         @routes
+        <script src="/digitalpersona/websdk.client.ui.js"></script>
+        <script src="/digitalpersona/fingerprint.sdk.js"></script>
         @viteReactRefresh
         @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"])
         @inertiaHead
+
     </head>
     <body class="font-sans antialiased">
         @inertia
